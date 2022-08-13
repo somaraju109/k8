@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: kubeapp-ecr
-          image: 380482327581.dkr.ecr.us-east-1.amazonaws.com/aws-ecr-kubenginx:2.0
+          image: 380482327581.dkr.ecr.us-east-1.amazonaws.com/aws-ecr-kubenginx:2.5
           resources:
             requests:
               memory: "128Mi"
